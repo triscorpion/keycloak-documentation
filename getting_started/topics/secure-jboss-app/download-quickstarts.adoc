@@ -35,7 +35,7 @@ $ cd {quickstartRepo_dir}/app-profile-jee-vanilla/config
 +
 [source, subs="attributes"]
 ----
-$ mvn clean wildfly:deploy
+$ mvn clean wildfly:deploy -Dwildfly.port=10090
 ----
 
 . Confirm that the application installationt succeeded. Go to http://localhost:8080/vanilla where a login page should appear.
